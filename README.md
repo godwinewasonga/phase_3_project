@@ -6,7 +6,7 @@
 ## Overview
 
 This repository contains the code and analysis for a machine learning study focused on predicting an individual's annual income based on various demographic and work-related features. The primary objective is to build predictive models to classify income into two categories: `>50K` (higher income) and `<=50K` (lower income).
-
+ncies
 ## Objectives
 
 This study addresses the following key objectives:
@@ -73,4 +73,13 @@ The study followed a standard machine learning workflow:
 * **Education Level:** Higher `education_num` directly correlates with higher income.
 * **Occupation:** Specific occupations (e.g., `Exec-managerial`) correlate positively with higher income, while others (e.g., `Handlers-cleaners`, `Farming-fishing`, `Other-service`) correlate negatively.
 * **Gender & Native Country:** While these factors were included, their direct predictive importance in the models was comparatively low. Further, dedicated subgroup analysis (e.g., comparing income distributions directly for gender and racial groups, or using advanced interpretability methods like SHAP values) would be necessary to fully quantify income disparities in these areas.
-
+## Repository structure
+├── data/
+│   └── (adult.data, adult.test)
+├── notebooks/
+│   └── income_prediction_analysis.ipynb  
+├── other scripts/
+│   └── (index, adult.names, )
+├── README.md
+├── icome_study.ppt
+└── (generated plots: decision_tree.pdf, decision_tree_feature_importance, decision_tree_income_prediction_model, )
